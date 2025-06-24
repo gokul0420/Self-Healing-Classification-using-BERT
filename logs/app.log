@@ -1,0 +1,77 @@
+2025-06-23 22:41:39,634 :: INFO :: [InferenceNode] 'The movie was painfully slow and boring' -> LABEL_0 (0.93)
+2025-06-23 22:41:39,635 :: INFO :: Final label decided: LABEL_0
+--------------------------------------------------
+2025-06-23 22:42:06,909 :: INFO :: [InferenceNode] 'The movie was awesome' -> LABEL_1 (0.89)
+2025-06-23 22:42:06,909 :: INFO :: Final label decided: LABEL_1
+--------------------------------------------------
+2025-06-23 22:42:13,605 :: INFO :: [InferenceNode] 'the movie is bad' -> LABEL_0 (0.88)
+2025-06-23 22:42:13,605 :: INFO :: Final label decided: LABEL_0
+--------------------------------------------------
+2025-06-23 22:42:24,938 :: INFO :: [InferenceNode] 'Titanic was bad' -> LABEL_0 (0.70)
+2025-06-23 22:42:24,938 :: INFO :: Confidence below threshold -- invoking fallback
+2025-06-23 22:42:46,786 :: INFO :: [FallbackNode] Resolved label='Negative' conf=1.00
+2025-06-23 22:42:46,786 :: INFO :: Final label decided: Negative
+--------------------------------------------------
+2025-06-23 22:42:53,888 :: INFO :: [InferenceNode] 'Titanic was bad' -> LABEL_0 (0.75)
+2025-06-23 22:42:53,888 :: INFO :: Final label decided: LABEL_0
+--------------------------------------------------
+2025-06-23 22:42:58,653 :: INFO :: [InferenceNode] 'Titanic was good' -> LABEL_1 (0.78)
+2025-06-23 22:42:58,654 :: INFO :: Final label decided: LABEL_1
+--------------------------------------------------
+2025-06-23 22:43:06,420 :: INFO :: [InferenceNode] 'godzilla was bad' -> LABEL_0 (0.82)
+2025-06-23 22:43:06,420 :: INFO :: Final label decided: LABEL_0
+--------------------------------------------------
+2025-06-23 22:43:11,570 :: INFO :: [InferenceNode] 'godzilla was worst' -> LABEL_0 (0.81)
+2025-06-23 22:43:11,570 :: INFO :: Final label decided: LABEL_0
+--------------------------------------------------
+2025-06-23 22:43:15,757 :: INFO :: [InferenceNode] 'godzilla was good' -> LABEL_1 (0.72)
+2025-06-23 22:43:15,757 :: INFO :: Confidence below threshold -- invoking fallback
+2025-06-23 22:43:20,127 :: INFO :: [FallbackNode] Resolved label='Positive' conf=1.00
+2025-06-23 22:43:20,127 :: INFO :: Final label decided: Positive
+--------------------------------------------------
+2025-06-24 21:34:05,680 :: INFO :: [InferenceNode] 'titanic was very good movie' -> LABEL_1 (0.88)
+2025-06-24 21:34:05,680 :: INFO :: Final label decided: LABEL_1
+--------------------------------------------------
+2025-06-24 21:34:29,060 :: INFO :: [InferenceNode] 'titanic is worst bit good movie' -> LABEL_0 (0.92)
+2025-06-24 21:34:29,060 :: INFO :: Final label decided: LABEL_0
+--------------------------------------------------
+2025-06-24 21:34:59,877 :: INFO :: [InferenceNode] 'the film has good actors but dragged a lot.' -> LABEL_1 (0.69)
+2025-06-24 21:34:59,877 :: INFO :: Confidence below threshold -- invoking fallback
+2025-06-24 21:35:29,679 :: INFO :: [FallbackNode] Resolved label='Negative' conf=1.00
+2025-06-24 21:35:29,680 :: INFO :: Final label decided: Negative
+--------------------------------------------------
+2025-06-24 21:35:34,565 :: INFO :: [InferenceNode] 'the film has good actors but dragged a lot.' -> LABEL_1 (0.68)
+2025-06-24 21:35:34,567 :: INFO :: Confidence below threshold -- invoking fallback
+2025-06-24 21:35:42,614 :: INFO :: [FallbackNode] Resolved label='Positive' conf=1.00
+2025-06-24 21:35:42,614 :: INFO :: Final label decided: Positive
+--------------------------------------------------
+2025-06-24 21:35:47,370 :: INFO :: [InferenceNode] 'the film has good actors but dragged a lot.' -> LABEL_1 (0.66)
+2025-06-24 21:35:47,370 :: INFO :: Confidence below threshold -- invoking fallback
+2025-06-24 21:35:56,901 :: INFO :: [FallbackNode] Resolved label='Negative' conf=1.00
+2025-06-24 21:35:56,902 :: INFO :: Final label decided: Negative
+--------------------------------------------------
+2025-06-24 21:35:59,321 :: INFO :: [InferenceNode] 'the film has good actors but dragged a lot.' -> LABEL_1 (0.61)
+2025-06-24 21:35:59,321 :: INFO :: Confidence below threshold -- invoking fallback
+2025-06-24 21:36:01,462 :: INFO :: [FallbackNode] Resolved label='Positive' conf=1.00
+2025-06-24 21:36:01,463 :: INFO :: Final label decided: Positive
+--------------------------------------------------
+2025-06-24 21:39:50,359 :: INFO :: [InferenceNode] '/exit' -> LABEL_0 (0.67)
+2025-06-24 21:39:50,362 :: INFO :: Confidence below threshold -- invoking fallback
+2025-06-24 21:39:53,492 :: INFO :: [FallbackNode] Resolved label='/exit' conf=1.00
+2025-06-24 21:39:53,492 :: INFO :: Final label decided: /exit
+--------------------------------------------------
+2025-06-24 21:45:44,246 :: INFO :: [InferenceNode] 'the movie wasamazing' -> LABEL_0 (0.73)
+2025-06-24 21:45:44,246 :: INFO :: Confidence below threshold -- invoking fallback
+2025-06-24 21:46:01,883 :: INFO :: [FallbackNode] Resolved label='Positive' conf=1.00
+2025-06-24 21:46:01,884 :: INFO :: Final label decided: Positive
+--------------------------------------------------
+2025-06-24 21:46:13,897 :: INFO :: [InferenceNode] 'the actors were amazing in the movie.' -> LABEL_1 (0.95)
+2025-06-24 21:46:13,897 :: INFO :: Final label decided: LABEL_1
+--------------------------------------------------
+2025-06-24 21:46:44,078 :: INFO :: [InferenceNode] 'the actors were good but movie was dragged.' -> LABEL_0 (0.71)
+2025-06-24 21:46:44,078 :: INFO :: Confidence below threshold -- invoking fallback
+2025-06-24 21:47:03,674 :: INFO :: [FallbackNode] Resolved label='Positive' conf=1.00
+2025-06-24 21:47:03,676 :: INFO :: Final label decided: Positive
+--------------------------------------------------
+2025-06-24 21:47:47,051 :: INFO :: [InferenceNode] 'the film has good actors but dragged a lot.' -> LABEL_1 (0.64)
+2025-06-24 21:47:47,051 :: INFO :: Confidence below threshold -- invoking fallback
